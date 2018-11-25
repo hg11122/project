@@ -1,0 +1,18 @@
+
+
+management:
+  security:
+    enabled: false
+    port: 8888
+    context-path: /xie
+    
+    endpoints: 
+      actuator:
+      enabled: true
+      shutdown: 
+      enabled: true
+      
+      info: 
+      app: 
+        name: spring-boot-tutorial
+        version:  2.1.0

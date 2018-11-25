@@ -1,0 +1,6 @@
+MY: 
+ name: hunyy
+ age: 23
+ number: ${random.long}
+ uuid: ${random.uuid}
+
